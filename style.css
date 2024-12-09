@@ -1,0 +1,185 @@
+@font-face{
+  font-family:'android';
+  src: url(fontes/idroid.otf) format(opentype);
+  font-weight: normal;
+} 
+
+
+html, body{
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+}
+
+.corpo{
+  background-color: #01EB83;
+  height: 100%;
+  margin-bottom: 0%;
+}
+
+.cabeca{
+background-image:linear-gradient(to top, #36963D, #07EB16);
+display: block;
+margin: 0%;
+}
+
+.cabeca >h1 {
+    margin: 0%;
+    text-align: center;
+    font-size: 45px;
+color: white;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cabeca >p {
+text-align: center;
+margin-top: 45px;
+color: gray;
+font-family: serif;
+font-size: 18px;
+}
+
+.lista{
+ display: flex;
+  text-align: start;
+  margin:0%;
+  padding:0%;
+  background-color: #36963D;
+}
+
+.lista >li {
+ margin-inline-start:40px ;
+ display: flex;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.conteudo {
+  display: flexbox;
+  background-color: white;
+  justify-content: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: 0 auto 0 auto;
+ width: 50em;
+  border-radius: 10px;
+  padding: 0%;
+  
+
+}
+
+.conteudo > h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0%;
+  font-family: android, times;
+  font-size: 35px;
+  color: #36963D;
+}
+
+.conteudo >h2 {
+  font-size: 25px;
+  font-family: android, times;
+  color: #36963D;
+  margin-left: 9px;
+}
+
+.conteudo2 >h1{
+font-family: android, times;
+color: #36963D;
+margin-left: 9px;
+}
+
+picture {
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-mobile{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .imagem-mobile{
+    display: block;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .imagem{
+    display: none;
+  }
+}
+
+.picture{
+  display: flex;
+  justify-content: center;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  border: #36963D solid 25px;
+  margin: 0%;
+  padding: 0%; 
+}
+
+.video1 {
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+}
+
+.conteudo-titulo{
+  background-color: #07EB16;
+  margin: 2% 26px 0px 26px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 2% 0px 2% 0px;
+  display: block;
+}
+.conteudo-titulo >h2 {
+  text-align: start;
+  font-size: 25px;
+  margin:0px 0px 0px 2%;
+}
+
+.conteudo-sub{
+  background-color:#aeebf3e0;
+  margin:0px 26px 0px 26px;
+  display: flexbox;
+  border-radius: 5px;
+}
+
+.conteudo-sub2 >p {
+margin: 2px 0px 0px 0px;
+}
+
+.container-text {
+  display: flex;
+}
+
+.text-colum{
+  margin-right: 15em;
+}
+
+footer{
+  background-color: #36963D;
+  font-size: 18px;
+  text-align: center;
+}
+
+p{
+  font-family: serif;
+  font-weight: 200;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.link2 {
+  text-decoration: none;
+  color: #07EB16;
+}
